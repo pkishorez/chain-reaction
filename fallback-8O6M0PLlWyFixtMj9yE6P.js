@@ -1,0 +1,1 @@
+(()=>{"use strict";self.fallback=async e=>"document"===e.destination?caches.match("/chain-reaction/_offline.html",{ignoreSearch:!0}):Response.error()})();
