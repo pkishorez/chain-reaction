@@ -1,11 +1,16 @@
 {
   "$schema": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/web-manifest.json",
-  "name": "Chain Reaction",
-  "short_name": "CR",
+  "name": "Chain Reaction Game",
+  "description": "Get ready for a multiplayer chain reaction extravaganza! Challenge your friends and family to a game of strategic explosions with our addictive multiplayer game. Place your orbs carefully to create a chain reaction of explosive fun, as you battle it out for the top spot on the leaderboard. This game is perfect for quick sessions on the go. Download now and experience the excitement of our multiplayer chain reaction game!",
+  "dir": "ltr",
+  "lang": "en-US",
+  "scope": "/chain-reaction/",
+  "short_name": "Chain Reaction",
   "start_url": "/chain-reaction/",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "display": "standalone",
+  "orientation": "natural",
   "icons": [
     {
       "src": "/chain-reaction/logo/icon_x192.png",
@@ -17,6 +22,12 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
+    },
+    {
+      "src": "/chain-reaction/logo/icon_x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
     }
   ]
 }
