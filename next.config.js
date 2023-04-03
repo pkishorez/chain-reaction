@@ -15,5 +15,3 @@ module.exports = {
   assetPrefix: assetPrefix,
   basePath: basePath,
 };
-
-module.exports = nextConfig;
