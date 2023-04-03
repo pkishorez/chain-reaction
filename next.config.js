@@ -2,7 +2,6 @@ const { BASE_PATH } = require("./src/constants");
 
 const withPWA = require("next-pwa")({
   dest: "public",
-  basePath: BASE_PATH,
 });
 
 /** @type {import('next').NextConfig} */
