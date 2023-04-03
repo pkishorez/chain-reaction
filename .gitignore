@@ -37,5 +37,5 @@ next-env.d.ts
 
 # Ignore.
 public/fallback-*
-public/sw.js
+public/sw.js*
 public/workbox-*
