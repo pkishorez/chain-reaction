@@ -12,5 +12,5 @@ const BASE_PATH = basePath;
 module.exports = {
   MAX_WIDTH,
   MARGIN,
-  BASE_PATH: "/out",
+  BASE_PATH,
 };
