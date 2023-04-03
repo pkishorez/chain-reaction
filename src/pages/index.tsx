@@ -12,12 +12,12 @@ export default function Home() {
       </Head>
       <main
         className="my-10"
-        style={{ marginLeft: MARGIN, marginBottom: MARGIN }}
+        style={{ marginLeft: MARGIN, marginRight: MARGIN }}
       >
         <div className="max-w-screen-max mx-auto">
           <h1 className="font-bold flex items-center gap-2">
-            <Logo className="w-10 h-10" />
-            <span>Chain Reaction</span>
+            <Logo className="w-10 h-10 shrink-0" />
+            <span className="whitespace-nowrap">Chain Reaction</span>
           </h1>
           <hr className="my-10" />
           <ChainReaction />
