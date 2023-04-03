@@ -3,3 +3,34 @@
 @tailwind utilities;
 
 @import "./theme.css";
+
+@layer base {
+	html {
+		font-family: "Poppins", sans-serif;
+	}
+
+	* {
+		transition: background-color 0.3s;
+	}
+
+	h1 {
+		@apply text-h1;
+	}
+
+	h2 {
+		@apply text-h2;
+	}
+
+	h3 {
+		@apply text-h3;
+	}
+	.prose-theme {
+		@apply prose;
+	}
+
+	@media (prefers-color-scheme: dark) {
+		.prose-theme {
+			@apply prose-invert;
+		}
+	}
+}

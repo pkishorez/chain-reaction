@@ -1,4 +1,4 @@
-[data-theme="light"] {
+:root {
 	--base-background: 250 250 250;
 	--base-background-level1: 240 240 240;
 	--base-background-level2: 210 210 210;
@@ -10,14 +10,16 @@
 	--base-highlight: purple;
 }
 
-[data-theme="dark"] {
-	--base-background: 36 36 36;
-	--base-background-level1: 50 50 50;
-	--base-background-level2: 70 70 70;
-	--base-background-invert: 246 246 246;
-	--base-background-hover: 90 90 90;
-	--base-foreground: 220 220 220;
-	--base-foreground-invert: 36 36 36;
-	--base-foreground-dim: 188 188 188;
-	--base-highlight: yellow;
+@media (prefers-color-scheme: dark) {
+	:root {
+		--base-background: 36 36 36;
+		--base-background-level1: 50 50 50;
+		--base-background-level2: 70 70 70;
+		--base-background-invert: 246 246 246;
+		--base-background-hover: 90 90 90;
+		--base-foreground: 220 220 220;
+		--base-foreground-invert: 36 36 36;
+		--base-foreground-dim: 188 188 188;
+		--base-highlight: yellow;
+	}
 }
