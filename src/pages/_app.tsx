@@ -1,4 +1,5 @@
 import "@/styles/globals.css";
+import { getPath } from "@/utils";
 import type { AppProps } from "next/app";
 import Head from "next/head";
 
@@ -28,38 +29,38 @@ export default function App({ Component, pageProps }: AppProps) {
           content="#242424"
           media="(prefers-color-scheme: dark)"
         />
-        <link rel="apple-touch-icon" href="/logo/icon_icon_x192.png" />
+        <link rel="apple-touch-icon" href={getPath("/logo/icon_x192.png")} />
         <link
           rel="icon"
           type="image/png"
           sizes="48x48"
-          href="/logo/icon_icon_x48.png"
+          href={getPath("/logo/icon_x48.png")}
         />
         <link
           rel="icon"
           type="image/png"
           sizes="128x128"
-          href="/logo/icon_icon_x128.png"
+          href={getPath("/logo/icon_x128.png")}
         />
         <link
           rel="icon"
           type="image/png"
           sizes="192x192"
-          href="/logo/icon_icon_x192.png"
+          href={getPath("/logo/icon_x192.png")}
         />
         <link
           rel="icon"
           type="image/png"
           sizes="512x512"
-          href="/logo/icon_icon_x512.png"
+          href={getPath("/logo/icon_x512.png")}
         />
-        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="manifest" href={getPath("/site.webmanifest")} />
         <link
           rel="mask-icon"
-          href="/icons/safari-pinned-tab.svg"
+          href={getPath("/icons/safari-pinned-tab.svg")}
           color="white"
         />
-        <link rel="Favicon" href="/favicon.ico" />
+        <link rel="Favicon" href={getPath("/favicon.ico")} />
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover"
