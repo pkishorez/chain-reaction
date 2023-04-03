@@ -3,6 +3,7 @@ import clsx from "clsx";
 import { Howl } from "howler";
 import { range } from "lodash-es";
 import { Button } from "@/components/button";
+import { MARGIN, MAX_WIDTH } from "@/constants";
 
 import { Block } from "./block";
 import { machine } from "./chain-reaction/machine";
@@ -48,7 +49,9 @@ export const ChainReaction = () => {
 		devTools: true,
 	});
 
-	const gridSize = "min(calc(min(100vw, 100vh) - 40px), 460px)";
+	const gridSize = `min(calc(min(100vw, 100vh) - ${
+		MARGIN * 2
+	}px), ${MAX_WIDTH}px)`;
 	const dotSize = `min(calc(${gridSize} / ${state.context.grid.cols} / 2 - 10px), 30px)`;
 
 	return (

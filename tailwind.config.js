@@ -2,6 +2,7 @@ const {
 	iconsPlugin,
 	getIconCollections,
 } = require("@egoist/tailwindcss-icons");
+const { MAX_WIDTH } = require("./src/constants");
 
 const BASE_FONT_SIZE = 16;
 const round = (value) =>
@@ -55,6 +56,7 @@ module.exports = {
 		},
 		borderColor: ({ theme }) => theme("backgroundColor"),
 		screens: {
+			max: `${MAX_WIDTH}px`,
 			mobile: "460px",
 		},
 		dropShadow: ({ theme }) => theme("backgroundColor"),

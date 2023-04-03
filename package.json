@@ -18,6 +18,7 @@
 		"howler": "^2.2.3",
 		"lodash-es": "^4.17.21",
 		"next": "13.2.4",
+		"next-pwa": "^5.6.0",
 		"react": "18.2.0",
 		"react-confetti": "^6.1.0",
 		"react-dom": "18.2.0",
@@ -26,14 +27,14 @@
 		"xstate": "^4.37.1"
 	},
 	"devDependencies": {
-		"@types/howler": "^2.2.7",
-		"@types/node": "18.15.11",
-		"@types/react": "18.0.32",
-		"@types/react-dom": "18.0.11",
 		"@egoist/tailwindcss-icons": "^1.0.7",
 		"@iconify/json": "^2.2.44",
 		"@tailwindcss/typography": "^0.5.9",
+		"@types/howler": "^2.2.7",
 		"@types/lodash-es": "^4.17.7",
+		"@types/node": "18.15.11",
+		"@types/react": "18.0.32",
+		"@types/react-dom": "18.0.11",
 		"autoprefixer": "^10.4.14",
 		"postcss": "^8.4.21",
 		"tailwindcss": "^3.3.1"

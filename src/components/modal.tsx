@@ -22,7 +22,7 @@ export const Modal = ({
 				"fixed inset-0 bg-base2 bg-opacity-50",
 				"z-modal",
 				"flex items-center justify-center",
-				"backdrop-blur-sm"
+				"backdrop-blur-md"
 			)}
 			onClick={closeOnOutsideClick ? onClose : undefined}
 		>
