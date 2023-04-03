@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "build:export": "next build && next export",
+    "build:export": "next build && next export -o chain-reaction",
     "start": "next start",
     "lint": "next lint"
   },

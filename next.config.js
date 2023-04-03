@@ -1,7 +1,10 @@
-const { BASE_PATH } = require("./src/constants");
+const { BASE_PATH, getPath } = require("./src/constants");
 
 const withPWA = require("next-pwa")({
   dest: "public",
+  fallbacks: {
+    document: getPath("/_offline.html"),
+  },
 });
 
 /** @type {import('next').NextConfig} */

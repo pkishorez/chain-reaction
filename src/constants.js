@@ -1,5 +1,5 @@
 const isGithubActions = process.env.GITHUB_ACTIONS || false;
-let basePath = "";
+let basePath = "/chain-reaction";
 if (isGithubActions) {
   // trim off `<owner>/`
   basePath = `/${process.env.GITHUB_REPOSITORY.replace(/.*?\//, "")}`;
@@ -13,4 +13,5 @@ module.exports = {
   MAX_WIDTH,
   MARGIN,
   BASE_PATH,
+  getPath: (path) => `${BASE_PATH}${path}`,
 };

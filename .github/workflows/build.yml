@@ -19,9 +19,9 @@ jobs:
         run: |
           npm ci
           npm run build:export
-          touch out/.nojekyll
+          touch chain-reaction/.nojekyll
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: out # The folder the action should deploy.
+          folder: chain-reaction # The folder the action should deploy.

@@ -34,3 +34,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Ignore.
+public/fallback-*
+public/sw.js
+public/workbox-*
