@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.pkishorez.twa",
+      "sha256_cert_fingerprints": [
+        "8A:FA:D7:94:A8:8B:44:C7:4C:35:93:95:6A:81:DA:0D:0C:93:E3:EF:14:61:10:F4:45:34:CE:F1:7C:16:8F:BA"
+      ]
+    }
+  }
+]
