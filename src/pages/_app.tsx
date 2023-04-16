@@ -1,3 +1,4 @@
+import { useThemeStore } from "@/components/use-theme";
 import "@/styles/globals.css";
 import { getPath } from "@/utils";
 import type { AppProps } from "next/app";

@@ -7,7 +7,7 @@ if (isGithubActions) {
 
 const MAX_WIDTH = 750;
 const MARGIN = 40;
-const BASE_PATH = basePath;
+const BASE_PATH = process.env.NODE_ENV === "development" ? "" : basePath;
 
 module.exports = {
   MAX_WIDTH,
